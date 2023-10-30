@@ -12,7 +12,7 @@ import ApplicationLogo from '@/Components/ApplicationLogo.vue';
             </h1>
 
             <p class="mt-6 text-gray-500 dark:text-gray-400 leading-relaxed">
-                Dus nu werkt het opeens wel?
+
             </p>
         </div>
     </div>
