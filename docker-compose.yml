@@ -19,6 +19,8 @@ services:
             IGNITION_LOCAL_SITES_PATH: '${PWD}'
         volumes:
             - '.:/var/www/html'
+            - '${HOME}/.config/valet/Certificates/brugman-advocaten.test.key:/var/www/Certificates/brugman-advocaten.test.key'
+            - '${HOME}/.config/valet/Certificates/brugman-advocaten.test.crt:/var/www/Certificates/brugman-advocaten.test.crt'
         networks:
             - sail
         depends_on:
